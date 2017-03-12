@@ -149,7 +149,7 @@ void loop() {
   {
     digitalWrite(ledPin, HIGH);
 
-    //if (state == 1) {flag();}
+    if (state == 1) {flag();}
     det = check();
   }
 
@@ -157,7 +157,7 @@ void loop() {
   {
     digitalWrite(ledPin, LOW);
 
-    //if (state == 1) {flag();}
+    if (state == 1) {flag();}
     det = check();
   }
 
